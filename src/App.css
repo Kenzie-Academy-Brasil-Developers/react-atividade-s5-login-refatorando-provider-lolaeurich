@@ -1,0 +1,116 @@
+.App {
+  font: italic;
+  background-color: white;
+  width: 449px;
+  height: 270px;
+  margin: 145px 0 0 400px;
+  border: 10px solid rgb(28, 114, 74);
+  border-radius: 10px;
+ 
+}
+
+.App-logo {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Form {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 174px 120px 111px 205px;
+}
+
+.Title {
+  height: 50px;
+  width: 229px;
+  font-size: x-large;
+  font-weight: 700;
+  color: #282c34;
+}
+
+.Nome {
+  padding: 0 138px 0 0;
+  font-weight: 500;
+}
+
+.Name {
+  padding: 0 4px 5px 0;
+  margin: 0 0 6px 0;
+  border-radius: 5px;
+}
+
+.Senha {
+  padding: 0 138px 0 0;
+  font-weight: 500;
+}
+
+.Password {
+  padding: 0 4px 5px 0;
+  margin: 0 0 -43px 0;
+  border-radius: 5px;
+}
+
+.Btn {
+  margin: 63px 0 0 0;
+  padding: 0 0 0 0;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(109, 108, 163);
+  border-radius: 5px;
+  font-weight: 700;
+  color: white;
+}
+
+.Div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Image {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+
+.BtnClose {
+  height: 30px;
+  width: 110px;
+  margin-top: 6px;
+  background-color: rgb(235, 235, 116);
+  border-radius: 5px;
+}
